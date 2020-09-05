@@ -1,3 +1,4 @@
+import 'package:expense_book/drawer/drawer_main.dart';
 import 'package:flutter/material.dart';
 
 import 'bottom_nav_bar/btm_bar.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: BottmoBar(),
+      home: MainDrawerPage(),
     );
   }
 }
