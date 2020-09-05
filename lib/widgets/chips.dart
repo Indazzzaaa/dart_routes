@@ -9,8 +9,8 @@ class CustomChips extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChoiceChip(
       shape: RoundedRectangleBorder(
-        side: BorderSide(color: Colors.black54, width: 2),
-        borderRadius: BorderRadius.circular(8),
+        side: BorderSide(color: Colors.black54, width: 1.5),
+        borderRadius: BorderRadius.circular(5),
       ),
       padding: EdgeInsets.all(8),
       onSelected: (value) {
@@ -20,7 +20,7 @@ class CustomChips extends StatelessWidget {
       label: Text(
         title,
         style: TextStyle(
-            color: Colors.white, fontSize: 20, fontWeight: FontWeight.w600),
+            color: Colors.white, fontSize: 20, fontWeight: FontWeight.w400),
       ),
       elevation: 5,
       selected: false,

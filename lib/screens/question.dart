@@ -1,3 +1,4 @@
+import 'package:expense_book/Scratch/s1.dart';
 import 'package:expense_book/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,8 @@ class QuestionPlace extends StatelessWidget {
             alignment: WrapAlignment.start,
             spacing: 10,
             children: [
-              CustomChips(
+              for (var i in numberGenerator(20)) CustomChips(title: '$i')
+              /* CustomChips(
                 title: "Bed",
               ),
               CustomChips(
@@ -39,7 +41,7 @@ class QuestionPlace extends StatelessWidget {
               ),
               CustomChips(
                 title: "Very Exciting",
-              ),
+              ), */
             ],
           )
         ],

@@ -1,5 +1,6 @@
-import 'package:expense_book/screens/screens.dart';
 import 'package:flutter/material.dart';
+
+import 'bottom_nav_bar/btm_bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,14 +17,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+      home: BottmoBar(),
     );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(body: QuestionPlace(question: "How was your day ?"));
   }
 }
