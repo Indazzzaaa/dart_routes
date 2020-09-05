@@ -5,10 +5,17 @@ check commits : git log  [or go to timeline to see the all commits with comments
 if made something new , and want to add to prev. commits , do not want to create new commit 
         then comments=> commits all(amend) , and before that stage all your changes.
 
-//! now working with the remote repository
+! now working with the remote repository
 step 1. create the repository
 step 2. now go to vs interface and click on push request.
 step 3. asked for url : give the first top url given to us when we created the repo
 step 4. asked for the name : give same or diff does not matter.
 step 5. done (see teh icon next right to master , bottom left this shows sync or not)
-//this is for pulling the changes from remote
+
+! Now cloning the repo
+step1. just start the new project
+step2. go to the git extension and click on clone
+step3. paste the url of clone repo(that is same we use for downloading)
+step4. it will ask for the location give it one , and all done.
+!create multiple branches
+just click on master and use it.
