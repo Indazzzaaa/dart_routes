@@ -12,3 +12,4 @@ step 3. asked for url : give the first top url given to us when we created the r
 step 4. asked for the name : give same or diff does not matter.
 step 5. done (see teh icon next right to master , bottom left this shows sync or not)
 //this is for pulling the changes from remote
+this is another line
