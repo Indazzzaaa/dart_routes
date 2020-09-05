@@ -1,2 +1,8 @@
 git intalled check : git  --version
 user , email set check : git config --global --list
+//* Initialize the git repo from the left
+check commits : git log  [or go to timeline to see the all commits with comments]
+if made something new , and want to add to prev. commits , do not want to create new commit 
+        then comments=> commits all(amend) , and before that stage all your changes.
+
+//! now working with the remote repository
