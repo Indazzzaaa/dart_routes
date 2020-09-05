@@ -1,0 +1,2 @@
+git intalled check : git  --version
+user , email set check : git config --global --list
