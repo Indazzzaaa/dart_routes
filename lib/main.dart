@@ -1,4 +1,6 @@
 import 'package:expense_book/drawer/drawer_main.dart';
+import 'package:expense_book/tab_bar/main_tab.dart';
+import 'package:expense_book/tab_bar/tab_2.dart';
 import 'package:flutter/material.dart';
 
 import 'bottom_nav_bar/btm_bar.dart';
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MainDrawerPage(),
+      home: TabBarPage2(),
     );
   }
 }
