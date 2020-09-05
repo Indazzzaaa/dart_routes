@@ -6,3 +6,4 @@ if made something new , and want to add to prev. commits , do not want to create
         then comments=> commits all(amend) , and before that stage all your changes.
 
 //! now working with the remote repository
+//this is for pulling the changes from remote
